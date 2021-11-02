@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>15 Terminos de TI</title>
-
+        <img width=100% height="20%"  src="https://www.eluniverso.com/resizer/jA_Um-Iri_XhFNnfE_VGSwrrYXY=/893x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/NPCMI7NVIRGLBJXCI3VYOEWGPE.jpg">
         <header>15 Terminos de TI</header>
     </head>
 
     <body>
-        <select class="form-select" aria-label="Default select example">
+        <select onchange="javascript:handleSelect(this)"
+        class="form-select" aria-label="Default select example">
             <option selected>Open this select menu</option>
             <option value="1">A</option>
             <option value="2">B</option>
@@ -33,26 +34,26 @@
             <option value="21">U</option>
             <option value="22">V</option>
             <option value="23">W</option>
-            <option value="24">X</option>
+            <option value="#X">X</option>
             <option value="25">Y</option>
             <option value="26">Z</option>
         </select>
           
         
         <dl>
-            <dt>AJAX (<em>n. masc.</em>)</dt>
+            <dt>AJAX</dt>
                 <dd>animal de cuatro patas que ladra.</dd>
-            <dt>API (<em>n. masc.</em>)</dt>
+            <dt>API </dt>
                 <dd>animal de cuatro patas que maulla y se lleva mal con el perro.</dd>
-            <dt>Cache (<em>n. fem.</em>)</dt>
+            <dt>Cache </dt>
                 <dd>animal que vive en el mar recubierto de escamas.</dd>    
-            <dt>Cookies (<em>n. fem.</em>)</dt>
+            <dt>Cookies </dt>
                 <dd>animal que vive en el mar recubierto de escamas.</dd>
-            <dt>CSS (<em>n. masc.</em>)</dt>
+            <dt>CSS </dt>
                 <dd>animal de cuatro patas que ladra.</dd>
-            <dt>DOM (<em>n. masc.</em>)</dt>
+            <dt>DOM </dt>
                 <dd>animal de cuatro patas que maulla y se lleva mal con el perro.</dd>
-            <dt>Framework (<em>n. fem.</em>)</dt>
+            <dt>Framework </dt>
                 <dd>animal que vive en el mar recubierto de escamas.</dd>
             <dt>HTML (<em>n. masc.</em>)</dt>
                 <dd>animal de cuatro patas que ladra.</dd>
@@ -66,12 +67,22 @@
                 <dd>animal de cuatro patas que maulla y se lleva mal con el perro.</dd>
             <dt>W3C (<em>n. fem.</em>)</dt>
                 <dd>animal que vive en el mar recubierto de escamas.</dd>
+            <h1 id="X">__________________________X_____________________________</h1>
             <dt>XHTML (<em>n. masc.</em>)</dt>
                 <dd>animal de cuatro patas que ladra.</dd>
             <dt>XML (<em>n. masc.</em>)</dt>
                 <dd>animal de cuatro patas que maulla y se lleva mal con el perro.</dd>
         </dl>
-
+        <span>
+            
+        </span>
+        <script type="text/javascript">
+            function handleSelect(elm)
+            {
+               window.location = elm.value;
+            }
+          </script>
+          
     </body>
 
 
